@@ -1,0 +1,55 @@
+.class1 {
+  		background-color: tomato;
+  		color: white;
+  		border: 2px solid black;
+  		margin: 20px;
+  		padding: 20px;
+	}
+
+body {
+  background-image: url('image/river.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /*background-color: deepskyblue;*/
+}
+h1 {
+  color: gold;
+  font-family: verdana;
+  font-size: 300%;
+}
+h2 {
+  /*color: orange;*/
+  font-family:Edwardian Script ITC; 
+  font-size:40px;
+  /*border: 2px solid blue;*/
+  padding: 30px;
+  margin: 30px;
+}
+p {
+  /*color: red;*/
+  font-family: courier;
+  font-size: 160%;
+}
+img {
+  width: 400;
+  height: 379;
+}
+table{
+  border: 5px double black;
+  border-collapse: collapse;
+  font-size: 30px;
+}
+th, td {
+  border: 1px solid black;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+th{
+  background-color: khaki
+}
+tr:nth-child(odd) {
+  background-color: lightgreen;
+}
